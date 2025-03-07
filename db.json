@@ -1,15 +1,33 @@
 {
-  "categories": [
-    { "id": 1, "title": "分类 1" },
-    { "id": 2, "title": "分类 2" },
-    { "id": 3, "title": "分类 3" }
-  ],
-    "products": [
-    { "id": 1, "title": "products 1","images":[],category:"分类1",status:"enabled" },
-    { "id": 2, "title": "products 2","images":[],category:"分类2",status:"disabled" },
-    { "id": 3, "title": "products 3","images":[],category:"分类3",status:"enabled" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    categories: [
+      { id: 1, title: "分类 1" },
+      { id: 2, title: "分类 2" },
+      { id: 3, title: "分类 3" },
+    ],
+    products: [
+      {
+        id: 1,
+        title: "products 1",
+        images: [],
+        category: "分类1",
+        status: "enabled",
+      },
+      {
+        id: 2,
+        title: "products 2",
+        images: [],
+        category: "分类2",
+        status: "disabled",
+      },
+      {
+        id: 3,
+        title: "products 3",
+        images: [],
+        category: "分类3",
+        status: "enabled",
+      },
+    ],
+    profile: {
+      name: "typicode",
+    },
+  };
